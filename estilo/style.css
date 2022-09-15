@@ -52,18 +52,6 @@ header {
     padding-top: 40px;
 }
 
-header > p {
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    padding-right: 10px;
-    padding-left: 10px;
-    max-width: 600px;
-    margin: auto;
-    padding-bottom: 50px;
-    color: white;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
-}
-
 header > h1{
     color: white;
     font-family: var(--fonte-destaque);
@@ -71,6 +59,18 @@ header > h1{
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
     font-weight: normal;
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
 }
 
 nav {
